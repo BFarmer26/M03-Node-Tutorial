@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 // Reading files
+
 //fs.readFile('./docs/blog1.txt', (err, data) => {
 //if (err) {
  //   console.log(err);
@@ -11,6 +12,7 @@ const fs = require('fs');
 //console.log('last line');
 
 // Writing files
+
 //fs.writeFile('./docs/blog1.txt', 'hello, world', () => {
   //  console.log('file was written');
 //})
@@ -20,6 +22,7 @@ const fs = require('fs');
 //})
 
 // Directories
+
 //if (!fs.existsSync('./assets')){
  //   fs.mkdir('./assets', (err) => {
 //        if (err) {
@@ -37,6 +40,7 @@ const fs = require('fs');
 //}
 
 // Deleting files
+
 if (fs.existsSync('./docs/deleteme.txt')) {
     fs.unlink('./docs/deleteme.txt', (err) => {
     if (err) {
