@@ -20,5 +20,11 @@ const fs = require('fs');
 //})
 
 // Directories
+fs.mkdir('./assets', (err) => {
+    if (err) {
+        console.log(err);
+    }
+    console.log('folder created');
+})
 
 // Deleting files
