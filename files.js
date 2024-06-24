@@ -8,6 +8,7 @@ if (err) {
     console.log(data.toString());
 })
 
+console.log('last line');
 
 // Writing files
 
