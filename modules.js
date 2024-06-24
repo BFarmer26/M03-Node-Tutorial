@@ -4,4 +4,4 @@ console.log(people, ages);
 
 const os = require('os');
 
-console.log(os.platform(), os.homedir());
+console.log(os.platform(), os.homedir()); 
